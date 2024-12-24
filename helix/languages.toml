@@ -1,0 +1,15 @@
+[language-server.clangd]
+command = "clangd"
+args = ["--enable-config"]
+
+[[language]]
+name = "cpp"
+language-servers = ["clangd"]
+auto-format = true
+
+[[language]]
+name = "ocaml"
+formatter = { command = "ocamlformat", args = [
+  "-",
+  "--impl",
+] }

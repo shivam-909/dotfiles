@@ -1,0 +1,5 @@
+theme = "autumn_night"
+
+[editor.soft-wrap]
+enable = true
+
