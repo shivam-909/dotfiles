@@ -3,3 +3,11 @@ theme = "autumn_night"
 [editor.soft-wrap]
 enable = true
 
+[keys.normal]
+S-g = {v = ["vsplit", "goto_definition"], b = "jump_backward", f = "jump_forward"} # Maps Ctrl-s to the typable command :w which is an alias for :write (save file)
+A-d = "delete_selection"
+d = "delete_selection_noyank"
+A-c = "change_selection"
+c = "change_selection_noyank"
+
+
